@@ -1,1 +1,64 @@
 // Specific CSS for your home-page
+.image {
+  display: flex;
+}
+
+.picture {
+  display: flex;
+  width: 861px;
+  height: 450px;
+  object-fit: cover;
+  margin-left: 55px;
+  margin-top: 36px;
+}
+
+.color-block {
+  display: flex;
+  background-color: #6A876D;
+  height: 450px;
+  width: 465px;
+  margin-top: 36px;
+  margin-right: 55px;
+}
+
+.title {
+  width: 100%;
+  text-align: justify;
+  margin-top: 15%;
+  padding: 0 40px;
+  color: white;
+  p {
+    margin-bottom: 20px;
+  }
+  h2 {
+    margin-bottom: 50px;
+    font-size: 20px;
+  }
+}
+
+.button {
+
+  border: solid 1px white;
+  background-color: #6A876D;
+  padding: 10px 25px;
+  cursor: pointer;
+  text-decoration: none;
+  a {
+    color: white;
+  }
+}
+
+.button:hover {
+  background-color: white;
+  a {
+    text-decoration: none;
+    color: #6A876D;
+  }
+}
+
+.button:active {
+  background-color: white;
+}
+
+
+// Specific CSS for your home-page
